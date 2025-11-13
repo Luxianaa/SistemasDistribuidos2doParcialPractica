@@ -78,7 +78,7 @@ return [
                 'buscarEstudiante' => \App\GraphQL\Queries\BuscarEstudianteQuery::class,
             ],
             'mutation' => [
-                // 'createUser' => App\GraphQL\Mutations\CreateUserMutation::class,
+                'crearEstudiante' => \App\GraphQL\Mutations\CrearEstudianteMutation::class,
             ],
             // The types only available in this schema
             'types' => [
