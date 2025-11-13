@@ -79,6 +79,8 @@ return [
             ],
             'mutation' => [
                 'crearEstudiante' => \App\GraphQL\Mutations\CrearEstudianteMutation::class,
+                'eliminarEstudiante' => \App\GraphQL\Mutations\EliminarEstudianteMutation::class,
+                'actualizarEstudiante' => \App\GraphQL\Mutations\ActualizarEstudianteMutation::class,
             ],
             // The types only available in this schema
             'types' => [
