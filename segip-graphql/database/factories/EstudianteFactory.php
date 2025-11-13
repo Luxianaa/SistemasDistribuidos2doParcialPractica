@@ -18,6 +18,7 @@ class EstudianteFactory extends Factory
     {
         return [
             'CI' => $this->faker->unique()->numerify('#########'),
+            'nombre' => $this->faker->firstName(),
             'primer_apellido' => $this->faker->lastName(),
             'segundo_apellido' => $this->faker->lastName(),
             'fecha_nacimiento' => $this->faker->date(),

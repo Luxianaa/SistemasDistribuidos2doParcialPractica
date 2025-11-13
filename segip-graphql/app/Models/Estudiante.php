@@ -12,6 +12,7 @@ class Estudiante extends Model
 
     protected $fillable = [
         'CI',
+        'nombre',
         'primer_apellido',
         'segundo_apellido',
         'fecha_nacimiento',

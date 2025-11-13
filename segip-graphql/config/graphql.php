@@ -75,14 +75,14 @@ return [
     'schemas' => [
         'default' => [
             'query' => [
-                // ExampleQuery::class,
+                'buscarEstudiante' => \App\GraphQL\Queries\BuscarEstudianteQuery::class,
             ],
             'mutation' => [
-                // ExampleMutation::class,
+                // 'createUser' => App\GraphQL\Mutations\CreateUserMutation::class,
             ],
             // The types only available in this schema
             'types' => [
-                // ExampleType::class,
+                \App\GraphQL\Types\EstudianteType::class,
             ],
 
             // Laravel HTTP middleware
